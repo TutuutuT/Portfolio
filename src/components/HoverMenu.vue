@@ -112,6 +112,7 @@ const HoverMenu = () => {
             }
             &__txt{
                 margin-left: 50px;
+                margin-top: 40px;
             }
             &__list{
                 list-style: none;
@@ -143,7 +144,7 @@ const HoverMenu = () => {
 
 
 .slide-fade-enter-active {
-  transition: all 0.3s ease-out;
+  transition: all 0.3s cubic-bezier(.59,-0.01,.23,1);
 }
 
 .slide-fade-leave-active {
@@ -152,7 +153,7 @@ const HoverMenu = () => {
 
 .slide-fade-enter-from,
 .slide-fade-leave-to {
-  transform: translateY(400px);
+  transform: translateY(500px);
   filter: blur(40px);
 }
 
