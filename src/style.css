@@ -14,6 +14,14 @@
   font-family: Poppins-sb;
   src: url(./fonts/Poppins-SemiBold.ttf);
 }
+@font-face {
+  font-family: GaruteOblique-B;
+  src: url(./fonts/GaruteOblique-Bold.woff);
+}
+@font-face {
+  font-family: Daysoftype;
+  src: url(./fonts/daysoftype.otf);
+}
 :root {
   font-family: Poppins;
   line-height: 1.5;
