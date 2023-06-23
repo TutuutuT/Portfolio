@@ -193,13 +193,27 @@ const HoverMenu = () => {
                     margin-top: 65px;
                     margin-left: 40px;
                     font-size: 35px;
-                    cursor: pointer;
                     font-family: GaruteOblique-B;
 
-                    & li:hover{
+                    & li{
+
+                        transition: all 300ms;
+                        cursor: pointer;
+                        &::before{
+                            content: "";
+                            transition: all 300ms;
+                        }
+
+                        &:hover{
                         opacity: 60%;
                         transition: all 300ms;
                         font-family: Daysoftype;
+                            &::before{
+                                content: "←";
+                                margin-right: 20px;
+                            }
+                        
+                        }
                     }
                 }
             }
