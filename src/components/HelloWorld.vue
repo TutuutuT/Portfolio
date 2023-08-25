@@ -29,7 +29,7 @@ onMounted(() => {
 <template>
   <div>
     <div class="magnetic" ref="magnet" @mousemove="moveMagnet" @mouseout="resetMagnet">
-      <div class="btn btn-outline-primary magnet-button" name="button">
+      <div class="btn magnet-button" name="button">
         Click Me
       </div>
     </div>
@@ -50,29 +50,15 @@ onMounted(() => {
   color:#ffffff;
   border:none;
   padding: 15px 50px;
+  transition: all 100ms;
 }
 .btn:hover {
-  background:#17171c;
+  background:#37373c;
   color:#ffffff;
 }
-#magnet-button {
+.magnet-button {
   display: inline-block;
   radius:50px;
-}
-
-.my-button {
-  background-color: #FFF;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: 2px solid #000;
-  cursor: pointer;
-}
-
-.my-button:hover {
-  color: #FFF;
-  background-color: #000;
-  transition: 0.5s background-color, 0.5s;
 }
 
 </style>

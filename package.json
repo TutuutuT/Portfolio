@@ -11,7 +11,8 @@
   "dependencies": {
     "gsap": "^3.12.1",
     "sass": "^1.63.5",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",

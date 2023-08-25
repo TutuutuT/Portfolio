@@ -1,15 +1,18 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import HoverMenu from './components/HoverMenu.vue'
-import MainBody from './components/MainBody.vue'
 </script>
 
+
 <template>
-  <HoverMenu/>
-  <MainBody/>
-  <HelloWorld/>
+  <HoverMenu></HoverMenu>
+  <section class="section--box">
+    <router-view/>
+  </section>
 </template>
 
 <style scoped>
-
+ .section--box{
+  margin-top: 3rem;
+ }
+ 
 </style>

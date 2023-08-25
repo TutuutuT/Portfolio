@@ -15,6 +15,14 @@
   src: url(./fonts/Poppins-SemiBold.ttf);
 }
 @font-face {
+  font-family: Poppins-b;
+  src: url(./fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: Poppins-xb;
+  src: url(./fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
   font-family: GaruteOblique-B;
   src: url(./fonts/GaruteOblique-Bold.woff);
 }
@@ -24,9 +32,8 @@
 }
 :root {
   font-family: Poppins;
-  line-height: 1.5;
+  line-height: 1.4;
   font-weight: 400;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -43,13 +50,12 @@ body {
   margin-top: 0;
   margin-right: 0;
   margin-left: 0;
-  min-width: 320px;
   min-height: 100vh;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: Poppins-sb;
+  overflow: hidden;
 }
 
 button {
@@ -71,14 +77,9 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.card {
-  padding: 2em;
-}
-
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 h2{
