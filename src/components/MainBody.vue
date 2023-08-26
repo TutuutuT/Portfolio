@@ -27,11 +27,43 @@ onMounted(() => {
 
 </script>
 
-
 <template>
-    <div class="box__title">
-        <h1><span class="title__span"><span class="title__span-anim title__span-anim-change">Thunus</span></span>
-        <span class="title__span"><span class="title__span-anim">Bastien</span></span></h1>
+
+    <div class="box__title flex justify-start pl-60">
+        <h1>
+            <div class="title__span__intro">Hello! My name is</div>
+            <span class="title__span">
+                <span class="title__span-anim title__span-anim-change">Thunus</span>
+            </span>
+            <span class="title__span">
+                <span class="title__span-anim">Bastien</span>
+            </span>
+        </h1>
+    </div>
+
+    <div class="w-full flex justify-end mt-24 pr-60 font-['Cascadia']">
+        <div class="gap-20 flex">
+            <ul>
+                <li>Web developer</li>
+                <li>Designer</li>
+                <li>Amator Photographer</li>
+            </ul>
+            <div class="w-96">
+                <img src="../img/Thai2.jpg" class="rounded-xl">
+                <figcaption class="w-full text-xs text-end opacity-60 mt-1">Thaïlande · 2023</figcaption>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full flex justify-start mt-24 pl-60">
+        <div class="gap-10 flex flex-col">
+            <p class="font-['Cascadia']">
+                About me
+            </p>
+            <p class="text-xl">
+                I'm a possionate <span class="text-ehance">web developer</span>
+            </p>
+        </div>
     </div>
 
 </template>
@@ -40,16 +72,11 @@ onMounted(() => {
 <style scoped lang="scss">
 
 .box__title{
-    font-size: 100px;
+    font-size: 150px;
     text-transform: uppercase;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     line-height: .9;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 100px;
-    height: 80svh;
+    padding-top: 150px;
 }
 
 .title{
@@ -58,6 +85,12 @@ onMounted(() => {
         overflow: hidden;
         &-anim{
             display: block;
+        }
+        &__intro{
+            font-size: 18px;
+            text-transform: none;
+            font-family: Cascadia;
+            margin-bottom: 40px;
         }
     }
 }

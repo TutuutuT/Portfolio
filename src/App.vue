@@ -1,18 +1,17 @@
 <script setup>
 import HoverMenu from './components/HoverMenu.vue'
+import Footer from './components/Footer.vue';
 </script>
 
 
 <template>
   <HoverMenu></HoverMenu>
-  <section class="section--box">
+  <section class="mt-[3rem] bg-[#111111] min-h-screen">
     <router-view/>
   </section>
+  <Footer/>
 </template>
 
 <style scoped>
- .section--box{
-  margin-top: 3rem;
- }
  
 </style>

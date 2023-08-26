@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: Poppins;
   src: url(./fonts/Poppins-Medium.ttf);
@@ -23,13 +27,30 @@
   src: url(./fonts/Poppins-ExtraBold.ttf);
 }
 @font-face {
-  font-family: GaruteOblique-B;
-  src: url(./fonts/GaruteOblique-Bold.woff);
-}
-@font-face {
   font-family: Daysoftype;
   src: url(./fonts/daysoftype.otf);
 }
+@font-face {
+  font-family: Garute;
+  src: url(./fonts/GaruteOblique-Bold.woff);
+}
+@font-face {
+  font-family: Cascadia;
+  src: url(./fonts/CascadiaCode-Regular.otf);
+}
+@font-face {
+  font-family: CascadiaBold;
+  src: url(./fonts/CascadiaCode-Bold.otf);
+}
+@font-face {
+  font-family: CascadiaItalic;
+  src: url(./fonts/CascadiaCode-Italic.otf);
+}
+@font-face {
+  font-family: CascadiaBoldItalic;
+  src: url(./fonts/CascadiaCode-BoldItalic.otf);
+}
+
 :root {
   font-family: Poppins;
   line-height: 1.4;
@@ -39,6 +60,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  background-color: #111111;
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 
 a {
@@ -55,7 +87,6 @@ body {
 
 h1 {
   font-family: Poppins-sb;
-  overflow: hidden;
 }
 
 button {
@@ -91,4 +122,14 @@ h3{
   opacity: 60%;
   font-size: 18px;
   font-family: Poppins-l;
+}
+
+
+/* Tailwind class perso */
+
+
+@layer base {
+  .text-ehance {
+    @apply font-[CascadiaBoldItalic];
+  }
 }
