@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 198.43 198.43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <image width="522" height="522" transform="translate(-9 -9) scale(.41)" xlink:href="D:\Téléchargements\Rectangle 14.png"/>
+  <path class="cls-1" d="m172.57,172.57c-57.57-57.57-88.57-57.57-146.14,0,57.57-57.57,57.57-88.57,0-146.14,57.57,57.57,88.57,57.57,146.14,0-57.57,57.57-57.57,88.57,0,146.14Z"/>
+  <path class="cls-1" d="m99.5,99.5c101,101-101,101,0,0C-1.5,200.5-1.5-1.5,99.5,99.5-1.5-1.5,200.5-1.5,99.5,99.5c101-101,101,101,0,0Z"/>
+</svg>

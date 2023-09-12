@@ -78,7 +78,7 @@ const HoverMenu = () => {
                         <ul class="menu__item__elements__list menu__item__elements__list-var">
                             <li @mouseover="ImageProjet = ImageTfe; imageToggle = true" @mouseleave="imageToggle = false">Tfe</li>
                             <li @mouseover="ImageProjet = ImageTfa; imageToggle = true" @mouseleave="imageToggle = false">Tfa</li>
-                            <li  @mouseover="ImageProjet = ImageMusic; imageToggle = true" @mouseleave="imageToggle = false">MusicPls</li>
+                            <li @mouseover="ImageProjet = ImageMusic; imageToggle = true" @mouseleave="imageToggle = false">MusicPls</li>
                             <li @mouseover="ImageProjet = ImageRux; imageToggle = true" @mouseleave="imageToggle = false">RUX</li>
                         </ul>
                     </div>
@@ -89,7 +89,7 @@ const HoverMenu = () => {
                         <ul class="menu__item__elements__list menu__item__elements__list-var">
                             <li @mouseover="ImageProjet = ImageTfe; imageToggle = true" @mouseleave="imageToggle = false">Tfe</li>
                             <li @mouseover="ImageProjet = ImageTfa; imageToggle = true" @mouseleave="imageToggle = false">Tfa</li>
-                            <li  @mouseover="ImageProjet = ImageMusic; imageToggle = true" @mouseleave="imageToggle = false">MusicPls</li>
+                            <li @mouseover="ImageProjet = ImageMusic; imageToggle = true" @mouseleave="imageToggle = false">MusicPls</li>
                             <li @mouseover="ImageProjet = ImageRux; imageToggle = true" @mouseleave="imageToggle = false">RUX</li>
                         </ul>
                     </div>
