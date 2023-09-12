@@ -22,6 +22,7 @@ gsap.registerPlugin(TextPlugin);
 
 onMounted(() => {
   gsap.fromTo(".title__span-anim", { y: -100, opacity:0 }, { y: 0, opacity:1,stagger:0.2, duration: 1.5, delay: 0.2, ease: "power4.out"});
+  gsap.fromTo(".img", { y: -100, opacity:0 }, { y: 0, opacity:1,stagger:0.2, duration: 1.5, delay: 1, ease: "power4.out"});
 
 });
 
@@ -41,15 +42,21 @@ onMounted(() => {
         </h1>
     </div>
 
-    <div class="w-full flex justify-end mt-24 pr-60 font-['Cascadia']">
-        <div class="gap-20 flex">
+    <div class="w-full flex justify-between mt-24 px-60 img">
+        <div class="mt-36">
+            <router-link :to="{ name: Portfolio}">
+                <div class="bg-white rounded-full border-2 border-[#111111] px-5 text-black text-[50px] uppercase relative z-10" :to="{ name: Portfolio}">Portfolio</div>
+                <div class=" bg-[#111111] border-2 border-white w-[600px] -mt-9 h-64 absolute rounded-xl"></div>
+            </router-link>
+        </div>
+        <div class="gap-20 flex font-['Cascadia']">
             <ul>
                 <li>Web developer</li>
                 <li>Designer</li>
                 <li>Amator Photographer</li>
             </ul>
-            <div class="w-96">
-                <img src="../img/Thai2.jpg" class="rounded-xl">
+            <div class="w-96 overflow-hidden rounded-xl">
+                <img src="../img/Thai2.jpg" class="rounded-xl img">
                 <figcaption class="w-full text-xs text-end opacity-60 mt-1">Thaïlande · 2023</figcaption>
             </div>
         </div>

@@ -6,7 +6,7 @@ import Footer from './components/Footer.vue';
 
 <template>
   <HoverMenu></HoverMenu>
-  <section class="mt-[3rem] bg-[#111111] min-h-screen">
+  <section class="mt-[2rem] bg-[#111111] min-h-screen">
     <router-view/>
   </section>
   <Footer/>
