@@ -109,7 +109,7 @@ const HoverMenu = () => {
     height: 60px;
     width: 100%;
     position: fixed;
-    z-index: 99;
+    z-index: 40;
 }
 
 .menu__box__item{
