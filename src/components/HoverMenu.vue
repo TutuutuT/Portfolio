@@ -12,6 +12,9 @@ const ImageTfa = ref('./src/img/nest.jpg')
 const ImageMusic = ref('./src/img/Music.png')
 const ImageIolce = ref('./src/img/IMG_2786.jpeg')
 const ImageRux = ref('./src/img/rux.jpg')
+const ImageStage = ref('./src/img/port-stage.png')
+const ImageHeaj = ref('./src/img/port-heaj.png')
+const ImageRops = ref('./src/img/rux.jpg')
 
 const MobileMenu = ref(false)
 
@@ -28,8 +31,8 @@ const HoverMenu = () => {
         <div class="menu" :class="{menuToggle: menuToggle}" @mouseleave="HoverMenu">
             <div class="menu__box__item">
                 <div class="menu__item"><router-link :to="{ name : 'Contacts'}" @mouseover="menuToggle = true; menuChoice = 1" >Contacts</router-link></div>
-                <div class="menu__item menu__item-2"><router-link  :to="{ name : 'Portfolio'}" @mouseover="menuToggle = true;  menuChoice = 2">Portfolio</router-link></div>
-                <div class="menu__item menu__item-2"><router-link :to="{ name : 'Parcours'}" @mouseover="menuToggle = true;  menuChoice = 3">Mon parcours</router-link></div>
+                <div class="menu__item menu__item-2"><router-link  :to="{ name : 'Portfolio'}" @mouseover="menuToggle = true;  menuChoice = 2; ImageProjet = ImageTfe">Portfolio</router-link></div>
+                <div class="menu__item menu__item-2"><router-link :to="{ name : 'Parcours'}" @mouseover="menuToggle = true;  menuChoice = 3; ImageProjet = ImageStage">Mon parcours</router-link></div>
             </div>
             <div v-if="menuToggle == true" class="menu__item__elements">
 
@@ -78,21 +81,21 @@ const HoverMenu = () => {
                     <div class="menu__item__elements__items" v-if="menuChoice == 2">
                         <div :class="{imageToggle: imageToggle}" class="menu__item__elements__img-var" :style="`background-image: url('${ImageProjet}')`"></div>
                         <ul class="menu__item__elements__list menu__item__elements__list-var">
-                            <li @mouseover="ImageProjet = ImageTfe; imageToggle = true" @mouseleave="imageToggle = false">Tfe</li>
-                            <li @mouseover="ImageProjet = ImageTfa; imageToggle = true" @mouseleave="imageToggle = false">Tfa</li>
+                            <li><router-link  :to="{ name : 'Portfolio'}" @mouseover="ImageProjet = ImageTfe; imageToggle = true" @mouseleave="imageToggle = false">Tfe</router-link></li>
+                            <li><router-link  :to="{ name : 'Portfolio'}" @mouseover="ImageProjet = ImageTfa; imageToggle = true" @mouseleave="imageToggle = false">Tfa</router-link></li>
                             <li @mouseover="ImageProjet = ImageMusic; imageToggle = true" @mouseleave="imageToggle = false">MusicPls</li>
                             <li @mouseover="ImageProjet = ImageRux; imageToggle = true" @mouseleave="imageToggle = false">RUX</li>
                         </ul>
                     </div>
                 </Transition>
+
                 <Transition name="slide-fade">
                     <div class="menu__item__elements__items" v-if="menuChoice == 3">
                         <div :class="{imageToggle: imageToggle}" class="menu__item__elements__img-var" :style="`background-image: url('${ImageProjet}')`"></div>
                         <ul class="menu__item__elements__list menu__item__elements__list-var">
-                            <li @mouseover="ImageProjet = ImageTfe; imageToggle = true" @mouseleave="imageToggle = false">Tfe</li>
-                            <li @mouseover="ImageProjet = ImageTfa; imageToggle = true" @mouseleave="imageToggle = false">Tfa</li>
-                            <li @mouseover="ImageProjet = ImageMusic; imageToggle = true" @mouseleave="imageToggle = false">MusicPls</li>
-                            <li @mouseover="ImageProjet = ImageRux; imageToggle = true" @mouseleave="imageToggle = false">RUX</li>
+                            <li @mouseover="ImageProjet = ImageStage; imageToggle = true" @mouseleave="imageToggle = false">Stage</li>
+                            <li @mouseover="ImageProjet = ImageHeaj; imageToggle = true" @mouseleave="imageToggle = false">Heaj</li>
+                            <li @mouseover="ImageProjet = ImageRux; imageToggle = true" @mouseleave="imageToggle = false">Felicien Rops</li>
                         </ul>
                     </div>
                 </Transition>
