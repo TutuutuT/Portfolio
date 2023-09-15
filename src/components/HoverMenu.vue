@@ -13,6 +13,8 @@ const ImageMusic = ref('./src/img/Music.png')
 const ImageIolce = ref('./src/img/IMG_2786.jpeg')
 const ImageRux = ref('./src/img/rux.jpg')
 
+const MobileMenu = ref(false)
+
 const HoverMenu = () => {
     menuToggle.value = !menuToggle.value
 }
@@ -21,13 +23,13 @@ const HoverMenu = () => {
 
 <template>
 
-    <div class="box__menu">
+    <div class="box__menu hidden md:block">
 
         <div class="menu" :class="{menuToggle: menuToggle}" @mouseleave="HoverMenu">
             <div class="menu__box__item">
-                <div class="menu__item"><router-link :to="{ name : 'Contacts'}" href="#" @mouseover="menuToggle = true; menuChoice = 1" >Contacts</router-link></div>
-                <div class="menu__item menu__item-2"><router-link  :to="{ name : 'Portfolio'}" @mouseover="menuToggle = true;  menuChoice = 2" href="#">Portfolio</router-link></div>
-                <div class="menu__item menu__item-2"><router-link :to="{ name : 'Parcours'}" @mouseover="menuToggle = true;  menuChoice = 3" href="#">Mon parcours</router-link></div>
+                <div class="menu__item"><router-link :to="{ name : 'Contacts'}" @mouseover="menuToggle = true; menuChoice = 1" >Contacts</router-link></div>
+                <div class="menu__item menu__item-2"><router-link  :to="{ name : 'Portfolio'}" @mouseover="menuToggle = true;  menuChoice = 2">Portfolio</router-link></div>
+                <div class="menu__item menu__item-2"><router-link :to="{ name : 'Parcours'}" @mouseover="menuToggle = true;  menuChoice = 3">Mon parcours</router-link></div>
             </div>
             <div v-if="menuToggle == true" class="menu__item__elements">
 
@@ -99,6 +101,27 @@ const HoverMenu = () => {
         </div>
 
     </div>
+    <div class="md:hidden flex justify-center">
+        <div class="menu-mobile flex items-center justify-around top-[90dvh] p-5 z-50 transition-all" :class="{open: MobileMenu}">
+
+            <div v-if="MobileMenu == true" class="flex gap-4 items-center mr-2">
+                <router-link :to="{ name : 'Contacts'}">Contacts</router-link>
+                <router-link :to="{ name : 'Portfolio'}">Portfolio</router-link>
+                <router-link :to="{ name : 'Parcours'}">Parcours</router-link>
+            </div>
+
+            <div>
+                <svg  v-if="MobileMenu == false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" @click="MobileMenu = !MobileMenu">
+                    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 17h14M5 12h14M5 7h14"/>
+                </svg>
+
+                <svg v-if="MobileMenu == true" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"  @click="MobileMenu = !MobileMenu">
+                    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m18 18l-6-6m0 0L6 6m6 6l6-6m-6 6l-6 6"/>
+                </svg>
+            </div>
+                
+        </div>
+    </div>
 
   
 </template>
@@ -131,6 +154,23 @@ const HoverMenu = () => {
     color: white;
     transform-origin: 50% 50% 0px;
     transition: all 400ms cubic-bezier(0.69, -0.15, 0.4, 1.15);
+
+    &-mobile{
+        position: fixed;
+        overflow: hidden;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        border-radius: 40px;
+        backdrop-filter: blur(100px);
+        background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.9);
+        font-size: 15px;
+        box-shadow: rgba($color: black, $alpha: 0.25) 0px 10px 50px 0px;
+        color: rgb(0, 0, 0);
+        transform-origin: 50% 50% 0px;
+        transition: all 400ms cubic-bezier(0.69, -0.15, 0.4, 1.15);
+    }
+
     &__item{
         margin-top: 17px;
         & a{
@@ -234,6 +274,10 @@ const HoverMenu = () => {
             }
         }
     }
+}
+
+.open{
+    width: 300px;
 }
 .menuToggle{
     background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.9);

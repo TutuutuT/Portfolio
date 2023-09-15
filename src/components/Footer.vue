@@ -4,10 +4,10 @@ import { gsap } from 'gsap';
 </script>
 
 <template>
-<h2 class="text-center mb-52 py-20 font-secondary text-white/20 font-bold bg-[#111111] rounded-b-[50px] relative"></h2>
-<footer class="h-[35svh] font-semibold bg-white flex pb-8  fixed bottom-0 w-full items-end -z-50">
+<h2 class="text-center md:mb-52 mb-96 py-20 font-secondary text-white/20 font-bold bg-[#111111] rounded-b-[50px] relative"></h2>
+<footer class=" font-semibold bg-white flex pb-4 md:pb-10 pt-40 fixed bottom-0 w-full items-end -z-50">
     <div class="text-lg w-full">
-        <ul class="italic flex justify-between lg:mx-20 mx-10 leading-8">
+        <ul class="italic flex justify-between lg:mx-20 mx-10 leading-8 flex-col md:flex-row gap-4">
             <li class="primaryList">Contact
                 <ul>
                     <li class="secondaryList"><a href="mailto:bastienthunus@gmail.com">bastienthunus@gmail.com</a></li>
@@ -34,9 +34,12 @@ import { gsap } from 'gsap';
 .primaryList{
     @apply text-black/40 font-normal;
 }
+.primaryList a{
+    @apply hover:text-sky-900 transition-all;
+}
 
-.secondaryList{
-    @apply font-normal text-black/100 not-italic;
+.secondaryList a{
+    @apply font-normal text-black not-italic hover:text-sky-800 transition-all;
 }
 
 </style>

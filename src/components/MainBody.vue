@@ -44,9 +44,9 @@ onMounted(() => {
 
     <div class="w-full flex justify-between mt-24 px-60 img">
         <div class="mt-36">
-            <router-link :to="{ name: Portfolio}">
-                <div class="bg-white rounded-full border-2 border-[#111111] px-5 text-black text-[50px] uppercase relative z-10" :to="{ name: Portfolio}">Portfolio</div>
-                <div class=" bg-[#111111] border-2 border-white w-[600px] -mt-9 h-64 absolute rounded-xl"></div>
+            <router-link :to="{ name: 'Portfolio'}" class="group">
+                <div class="bg-white group-hover:bg-neutral-500  transition-all rounded-full border-2 border-[#111111] px-5 text-black text-[50px] uppercase relative z-10" :to="{ name: Portfolio}">Portfolio</div>
+                <div class=" bg-[#111111] border-2 border-white group-hover:border-neutral-500  transition-all w-[600px] -mt-9 h-64 absolute rounded-xl"></div>
             </router-link>
         </div>
         <div class="gap-20 flex font-['Cascadia']">
