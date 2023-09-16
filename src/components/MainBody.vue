@@ -32,7 +32,7 @@ onMounted(() => {
 
     <div class="box__title flex justify-start pl-60">
         <h1>
-            <div class="title__span__intro">Hello! My name is</div>
+            <div class="title__span__intro">Hello! Je m'appelle</div>
             <span class="title__span">
                 <span class="title__span-anim title__span-anim-change">Thunus</span>
             </span>
@@ -44,8 +44,8 @@ onMounted(() => {
 
     <div class="w-full flex justify-between mt-24 px-60 img">
         <div class="mt-36">
-            <router-link :to="{ name: 'Portfolio'}" class="group">
-                <div class="bg-white group-hover:bg-neutral-500  transition-all rounded-full border-2 border-[#111111] px-5 text-black text-[50px] uppercase relative z-10" :to="{ name: Portfolio}">Portfolio</div>
+            <router-link to="Portfolio#music" class="group">
+                <div class="bg-white group-hover:bg-neutral-500  transition-all rounded-full px-5 text-black text-[50px] uppercase relative z-10">Portfolio</div>
                 <div class=" bg-[#111111] border-2 border-white group-hover:border-neutral-500  transition-all w-[600px] -mt-9 h-64 absolute rounded-xl"></div>
             </router-link>
         </div>
@@ -53,7 +53,7 @@ onMounted(() => {
             <ul>
                 <li>Web developer</li>
                 <li>Designer</li>
-                <li>Amator Photographer</li>
+                <li>Photographe amateur</li>
             </ul>
             <div class="w-96 overflow-hidden rounded-xl">
                 <img src="../img/Thai2.jpg" class="rounded-xl img">
@@ -65,10 +65,10 @@ onMounted(() => {
     <div class="w-full flex justify-start mt-24 pl-60">
         <div class="gap-10 flex flex-col">
             <p class="font-['Cascadia']">
-                About me
+                À propos de moi
             </p>
             <p class="text-xl">
-                I'm a possionate <span class="text-ehance">web developer</span>
+                Je suis un <span class="text-ehance">web developer</span> passioné
             </p>
         </div>
     </div>
