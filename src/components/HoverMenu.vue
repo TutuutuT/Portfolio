@@ -11,12 +11,19 @@ const ImageTfe = ref('./src/img/PromptPilot.jpg')
 const ImageTfa = ref('./src/img/nest.jpg')
 const ImageMusic = ref('./src/img/Music.png')
 const ImageIolce = ref('./src/img/IMG_2786.jpeg')
-const ImageRux = ref('./src/img/rux.jpg')
+const ImageRux = ref('./src/img/port-ilab.png')
 const ImageStage = ref('./src/img/port-stage.png')
-const ImageHeaj = ref('./src/img/port-heaj.png')
-const ImageRops = ref('./src/img/rux.jpg')
+const ImageHeaj = ref('./src/img/port-heaj-2.jpeg')
+const ImageRops = ref('./src/img/port-rops.jpeg')
 
-const MobileMenu = ref(false)
+const MobileMenu = ref(false);
+
+// Ajoute un écouteur d'événement pour le scroll
+window.addEventListener('scroll', () => {
+  if (window.scrollY >= 100) {
+    MobileMenu.value = false;
+  }
+});
 
 const HoverMenu = () => {
     menuToggle.value = !menuToggle.value
@@ -30,7 +37,7 @@ const HoverMenu = () => {
 
         <div class="menu" :class="{menuToggle: menuToggle}" @mouseleave="HoverMenu">
             <div class="menu__box__item">
-                <div class="menu__item"><router-link :to="{ name : 'Contacts'}" @mouseover="menuToggle = true; menuChoice = 1" >Contacts</router-link></div>
+                <div class="menu__item"><router-link :to="{ name : ''}" @mouseover="menuToggle = true; menuChoice = 1" >Contacts</router-link></div>
                 <div class="menu__item menu__item-2"><router-link  :to="{ name : 'Portfolio'}" @mouseover="menuToggle = true;  menuChoice = 2; ImageProjet = ImageTfe">Portfolio</router-link></div>
                 <div class="menu__item menu__item-2"><router-link :to="{ name : 'Parcours'}" @mouseover="menuToggle = true;  menuChoice = 3; ImageProjet = ImageStage">Mon parcours</router-link></div>
             </div>
@@ -84,7 +91,7 @@ const HoverMenu = () => {
                             <li><router-link  :to="{ name : 'Portfolio'}" @mouseover="ImageProjet = ImageTfe; imageToggle = true" @mouseleave="imageToggle = false">Tfe</router-link></li>
                             <li><router-link  :to="{ name : 'Portfolio'}" @mouseover="ImageProjet = ImageTfa; imageToggle = true" @mouseleave="imageToggle = false">Tfa</router-link></li>
                             <li @mouseover="ImageProjet = ImageMusic; imageToggle = true" @mouseleave="imageToggle = false">MusicPls</li>
-                            <li @mouseover="ImageProjet = ImageRux; imageToggle = true" @mouseleave="imageToggle = false">RUX</li>
+                            <li @mouseover="ImageProjet = ImageRux; imageToggle = true" @mouseleave="imageToggle = false">Ilab</li>
                         </ul>
                     </div>
                 </Transition>
@@ -95,7 +102,7 @@ const HoverMenu = () => {
                         <ul class="menu__item__elements__list menu__item__elements__list-var">
                             <li @mouseover="ImageProjet = ImageStage; imageToggle = true" @mouseleave="imageToggle = false">Stage</li>
                             <li @mouseover="ImageProjet = ImageHeaj; imageToggle = true" @mouseleave="imageToggle = false">Heaj</li>
-                            <li @mouseover="ImageProjet = ImageRux; imageToggle = true" @mouseleave="imageToggle = false">Felicien Rops</li>
+                            <li @mouseover="ImageProjet = ImageRops; imageToggle = true" @mouseleave="imageToggle = false">Felicien Rops</li>
                         </ul>
                     </div>
                 </Transition>
@@ -108,7 +115,7 @@ const HoverMenu = () => {
         <div class="menu-mobile flex items-center justify-around top-[90dvh] p-5 z-50 transition-all" :class="{open: MobileMenu}">
 
             <div v-if="MobileMenu == true" class="flex gap-4 items-center mr-2">
-                <router-link :to="{ name : 'Contacts'}">Contacts</router-link>
+                <router-link :to="{ name : ''}">Contacts</router-link>
                 <router-link :to="{ name : 'Portfolio'}">Portfolio</router-link>
                 <router-link :to="{ name : 'Parcours'}">Parcours</router-link>
             </div>
