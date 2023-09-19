@@ -8,14 +8,17 @@
                 <p class="font-[Poppins-r] text-2xl pb-3 opacity-60">
                     · Stage | onie
                 </p>
-                <ul class="flex gap-2 text-sm">
+                <ul class="flex gap-x-2 gap-y-3 text-sm flex-wrap">
                     <li><a class="transition-all rounded-full border-2 border-[#7477AE] text-[#7477AE] px-2 hover:bg-[#7477AE] hover:text-white" href="https://www.php.net/" target="_blank">php</a></li>
                     <li><a class="transition-all rounded-full border-2 text-[#38BDF8] border-[#38BDF8] px-2 hover:bg-[#38BDF8] hover:text-white" href="https://tailwindcss.com/" target="_blank">Tailwind</a></li>
                     <li><a  class="transition-all rounded-full border-2 text-[#88CE02] border-[#88CE02] px-2 hover:bg-[#88CE02] hover:text-white" href="https://greensock.com/gsap/" target="_blank">GSAP</a></li>
+                    <li><a  class="transition-all rounded-full border-2 text-[#2A799D] border-[#2A799D] px-2 hover:bg-[#2A799D] hover:text-white" href="https://wordpress.com/fr/" target="_blank">Wordpress</a></li>
+                    <li><a  class="transition-all rounded-full border-2 text-[#F82B1E] border-[#F82B1E] px-2 hover:bg-[#F82B1E] hover:text-white" href="https://laravel.com/" target="_blank">Laravel</a></li>
+                    <li><a  class="transition-all rounded-full border-2 text-[#2A799D] border-[#2A799D] px-2 hover:bg-[#2A799D] hover:text-white" href="https://wordpress.com/fr/" target="_blank">Typescript</a></li>
                     <li><a  class="transition-all rounded-full border-2 text-[#F85FEE] border-[#F85FEE] px-2 hover:bg-[#F85FEE] hover:text-white" href="https://helpx.adobe.com/be_fr/xd/get-started.html" target="_blank">XD</a></li>
                 </ul>
                 <p class="font-[Poppins-r] text-xl pt-4 w-full lg:w-96">
-                    Pour la fin de mon cursus à la HEAJ, j'ai consacré mon travail de fin d'études à Midjourney, en raison de ses révolutions techniques significatives et de ses capacités en constante expansion. Ce projet m'a offert l'opportunité de renforcer mes compétences dans le l'utilisation des API ainsi que dans l'utilisation de Vue.js.
+                    J'ai effectué mon stage au sein de la société <span class="font-['Poppins-xb']">Onie</span> pour une durée de 3 mois, où j'ai réalisé du développement web. J'ai assisté aux réunions clients et je réalisais le développement. J'ai également été impliqué dans les corrections et les modifications sur certains projets existants.
                 </p>
             </div>
             <a href="https://onie.be/" class="bg-white rounded-[28px] h-96 p-1 drop-shadow-[0_0px_10px_rgba(255,255,255,0.04)] hover:bg-white/40 transition-all lg:w-2/4 2xl:w-3/4 sm:mx-20">
@@ -44,8 +47,7 @@
                     <li><a  class="transition-all rounded-full border-2 text-[#D3461E] border-[#D3461E] px-2 hover:bg-[#D3461E] hover:text-white" href="https://www.figma.com/file/R6Cv9zzaK4q2S8b2SptcED/TFE?type=design&node-id=0%3A1&mode=design&t=0KnbEdpWlKG6deXG-1" target="_blank">Figma</a></li>
                 </ul>
                 <p class="font-[Poppins-r] text-xl pt-4 w-full lg:w-96">
-                    En 2022, j'ai eu l'opportunité de réaliser mon TFA dont le thème central portait sur les NFTs, un domaine qui suscitait alors un vif engouement. Ce sujet m'a semblé particulièrement pertinent à explorer.
-                </p>
+                    J'ai suivi un cursus à la HEAJ avec finalité "Design web et transmedia".</p>
             </div>
             <a href="https://bastien-thunus.be/projets/tfa/" class="bg-white rounded-[28px] h-96 p-1 drop-shadow-[0_0px_10px_rgba(255,255,255,0.04)] hover:bg-white/40 transition-all lg:w-2/4 2xl:w-3/4 sm:mx-20">
                 <div class="card-heaj bg-[#F6F6F6] rounded-3xl h-full">

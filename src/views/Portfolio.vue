@@ -68,8 +68,7 @@
                     <li><a class="transition-all rounded-full border-2 text-[#D3461E] border-[#D3461E] px-2 hover:bg-[#D3461E] hover:text-white" href="https://www.figma.com/file/ctJnDHnwNlbjavkaNyv7wv/Music-Please?type=design&node-id=0%3A1&mode=design&t=brfhBLmySlaJG6x5-1" target="_blank">Figma</a></li>
                 </ul>
                 <p class="font-[Poppins-r] text-xl pt-4 w-full lg:w-96">
-                    Pour la fin de mon cursus à la HEAJ, j'ai consacré mon travail de fin d'études à Midjourney, en raison de ses révolutions techniques significatives et de ses capacités en constante expansion. Ce projet m'a offert l'opportunité de renforcer mes compétences dans le l'utilisation des API ainsi que dans l'utilisation de Vue.js.
-                </p>
+                    Au cours de ma dernière année à la HEAJ, j'ai eu l'occasion de concevoir l'un de mes premiers projets concrets en Vue.js, qui portait sur le domaine de la musique.                </p>
             </div>
             <a href="https://bastien-thunus.be/projets/musicplz/" target="_blank" class="bg-white rounded-[28px] h-96 p-1 drop-shadow-[0_0px_10px_rgba(255,255,255,0.04)] hover:bg-white/40 transition-all lg:w-2/4 2xl:w-3/4 sm:mx-20">
                 <div class="card-music bg-[#F6F6F6] rounded-3xl h-full">
@@ -94,8 +93,7 @@
                     <li><a  class="transition-all rounded-full border-2 text-[#D3461E] border-[#D3461E] px-2 hover:bg-[#D3461E] hover:text-white" href="https://www.figma.com/file/R6Cv9zzaK4q2S8b2SptcED/TFE?type=design&node-id=0%3A1&mode=design&t=0KnbEdpWlKG6deXG-1" target="_blank">Figma</a></li>
                 </ul>
                 <p class="font-[Poppins-r] text-xl pt-4 w-full lg:w-96">
-                    Pour la fin de mon cursus à la HEAJ, j'ai consacré mon travail de fin d'études à Midjourney, en raison de ses révolutions techniques significatives et de ses capacités en constante expansion. Ce projet m'a offert l'opportunité de renforcer mes compétences dans le l'utilisation des API ainsi que dans l'utilisation de Vue.js.
-                </p>
+                    En groupe, nous avons entrepris la réalisation d'un projet, optant pour un format ludique d'apprentissage. Ma contribution majeure à cette initiative a résidé dans la conception graphique de ce projet.</p>
             </div>
             <a href="https://bastien-thunus.be/projets/iLab/" target="_blank" class="bg-white rounded-[28px] h-96 p-1 drop-shadow-[0_0px_10px_rgba(255,255,255,0.04)] hover:bg-white/40 transition-all lg:w-2/4 2xl:w-3/4 sm:mx-20">
                 <div class="card-ilab bg-[#F6F6F6] rounded-3xl h-full">
