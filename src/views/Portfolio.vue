@@ -3,9 +3,9 @@
     <section class="bg-[#111111] p-5 md:mt-6">
 
 
-        <div class="flex flex-col lg:flex-row gap-12 mt-28">
+        <div class="flex flex-col lg:flex-row gap-12 mt-28 scroll-mt-32" id="tfe">
             <div class="sm:pl-20 sm:pr-20 lg:pr-0 lg:w-2/4 2xl:w-1/4">
-                <p class="font-[Poppins-r] text-2xl pb-3 opacity-60" id="tfe">
+                <p class="font-[Poppins-r] text-2xl pb-3 opacity-60">
                     · TFE
                 </p>
                 <ul class="flex gap-2 text-sm">
@@ -30,7 +30,7 @@
         </div>
 
 
-        <div class="flex flex-col lg:flex-row gap-12 mt-28 lg:mt-48">
+        <div class="flex flex-col lg:flex-row gap-12 mt-28 lg:mt-48 scroll-mt-32" id="tfa">
             <div class="sm:pl-20 sm:pr-20 lg:pr-0 lg:w-2/4 2xl:w-1/4">
                 <p class="font-[Poppins-r] text-2xl pb-3 opacity-60">
                     · TFA
@@ -57,9 +57,9 @@
         </div>
 
        
-        <div class="flex flex-col lg:flex-row gap-12 mt-28 lg:mt-48">
+        <div class="flex flex-col lg:flex-row gap-12 mt-28 lg:mt-48 scroll-mt-32" id="music">
             <div class="sm:pl-20 sm:pr-20 lg:pr-0 lg:w-2/4 2xl:w-1/4">
-                <p class="font-[Poppins-r] text-2xl pb-3 opacity-60" id="music">
+                <p class="font-[Poppins-r] text-2xl pb-3 opacity-60">
                     · MusicPls
                 </p>
                 <ul class="flex gap-2 text-sm">
@@ -82,7 +82,7 @@
         </div>
 
 
-        <div class="flex flex-col lg:flex-row gap-12 mt-28 lg:mt-48">
+        <div class="flex flex-col lg:flex-row gap-12 mt-28 lg:mt-48 scroll-mt-32" id="ilab">
             <div class="sm:pl-20 sm:pr-20 lg:pr-0 lg:w-2/4 2xl:w-1/4">
                 <p class="font-[Poppins-r] text-2xl pb-3 opacity-60">
                     · ILAB

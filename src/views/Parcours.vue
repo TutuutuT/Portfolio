@@ -3,7 +3,7 @@
     <section class="bg-[#111111] p-5 md:mt-6">
 
 
-        <div class="flex flex-col lg:flex-row gap-12 mt-28">
+        <div class="flex flex-col lg:flex-row gap-12 scroll-mt-32" id="stage">
             <div class="sm:pl-20 sm:pr-20 lg:pr-0 lg:w-2/4 2xl:w-1/4">
                 <p class="font-[Poppins-r] text-2xl pb-3 opacity-60">
                     · Stage | onie
@@ -33,7 +33,7 @@
         </div>
 
 
-        <div class="flex flex-col lg:flex-row gap-12 mt-28 lg:mt-48">
+        <div class="flex flex-col lg:flex-row gap-12 mt-28 lg:mt-48 scroll-mt-32" id="heaj">
             <div class="sm:pl-20 sm:pr-20 lg:pr-0 lg:w-2/4 2xl:w-1/4">
                 <p class="font-[Poppins-r] text-2xl pb-3 opacity-60">
                     ·&nbsp;Haute&nbsp;école&nbsp;Albert&nbsp;Jaquard
@@ -61,7 +61,7 @@
         </div>
 
        
-        <div class="flex flex-col lg:flex-row gap-12 mt-28 lg:mt-48">
+        <div class="flex flex-col lg:flex-row gap-12 mt-28 lg:mt-48 scroll-mt-32" id="fr">
             <div class="sm:pl-20 sm:pr-20 lg:pr-0 lg:w-2/4 2xl:w-1/4">
                 <p class="font-[Poppins-r] text-2xl pb-3 opacity-60">
                     · ITCF Félicien Rops

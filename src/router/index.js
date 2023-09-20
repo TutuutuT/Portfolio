@@ -6,6 +6,7 @@ import Contacts from "../views/Contacts.vue";
 import Parcours from "../views/Parcours.vue";
 
 const router = createRouter({
+    history: createWebHashHistory(),
     routes:[{
         path: '/',
         name: 'Home',
@@ -38,11 +39,21 @@ const router = createRouter({
     //     component: NotFound
     // }
 ],
-    history: createWebHashHistory(),
-    scrollBehavior(to, from, savedPosition) {
+
+scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      // This ensures that if hash is provided to router.push it works as expected.
+      //  & since we have used "behavior: 'smooth'" the browser will slowly come to this hash position.
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      }
+    }
+    else {
         return { top: 0 }
-      },
-})
+    }
+  }
+});
 
 
 export default router;

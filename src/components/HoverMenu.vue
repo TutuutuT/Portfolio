@@ -88,10 +88,10 @@ const HoverMenu = () => {
                     <div class="menu__item__elements__items" v-if="menuChoice == 2">
                         <div :class="{imageToggle: imageToggle}" class="menu__item__elements__img-var" :style="`background-image: url('${ImageProjet}')`"></div>
                         <ul class="menu__item__elements__list menu__item__elements__list-var">
-                            <li><router-link  :to="{ name : 'Portfolio'}" @mouseover="ImageProjet = ImageTfe; imageToggle = true" @mouseleave="imageToggle = false">Tfe</router-link></li>
-                            <li><router-link  :to="{ name : 'Portfolio'}" @mouseover="ImageProjet = ImageTfa; imageToggle = true" @mouseleave="imageToggle = false">Tfa</router-link></li>
-                            <li @mouseover="ImageProjet = ImageMusic; imageToggle = true" @mouseleave="imageToggle = false">MusicPls</li>
-                            <li @mouseover="ImageProjet = ImageRux; imageToggle = true" @mouseleave="imageToggle = false">Ilab</li>
+                            <li><router-link :to="{ name : 'Portfolio', hash:'#tfe'}" @mouseover="ImageProjet = ImageTfe; imageToggle = true" @mouseleave="imageToggle = false">Tfe</router-link></li>
+                            <li><router-link :to="{ name : 'Portfolio', hash:'#tfa'}" @mouseover="ImageProjet = ImageTfa; imageToggle = true" @mouseleave="imageToggle = false">Tfa</router-link></li>
+                            <li><router-link :to="{ name : 'Portfolio', hash:'#music'}" @mouseover="ImageProjet = ImageMusic; imageToggle = true" @mouseleave="imageToggle = false">MusicPls</router-link></li>
+                            <li><router-link :to="{ name : 'Portfolio', hash:'#ilab'}" @mouseover="ImageProjet = ImageRux; imageToggle = true" @mouseleave="imageToggle = false">Ilab</router-link></li>
                         </ul>
                     </div>
                 </Transition>
@@ -100,9 +100,9 @@ const HoverMenu = () => {
                     <div class="menu__item__elements__items" v-if="menuChoice == 3">
                         <div :class="{imageToggle: imageToggle}" class="menu__item__elements__img-var" :style="`background-image: url('${ImageProjet}')`"></div>
                         <ul class="menu__item__elements__list menu__item__elements__list-var">
-                            <li @mouseover="ImageProjet = ImageStage; imageToggle = true" @mouseleave="imageToggle = false">Stage</li>
-                            <li @mouseover="ImageProjet = ImageHeaj; imageToggle = true" @mouseleave="imageToggle = false">Heaj</li>
-                            <li @mouseover="ImageProjet = ImageRops; imageToggle = true" @mouseleave="imageToggle = false">Felicien Rops</li>
+                            <li><router-link :to="{ name : 'Parcours', hash:'#stage'}" @mouseover="ImageProjet = ImageStage; imageToggle = true" @mouseleave="imageToggle = false">Stage</router-link></li>
+                            <li><router-link :to="{ name : 'Parcours', hash:'#heaj'}" @mouseover="ImageProjet = ImageHeaj; imageToggle = true" @mouseleave="imageToggle = false">Heaj</router-link></li>
+                            <li><router-link :to="{ name : 'Parcours', hash:'#fr'}" @mouseover="ImageProjet = ImageRops; imageToggle = true" @mouseleave="imageToggle = false">Felicien Rops</router-link></li>
                         </ul>
                     </div>
                 </Transition>
