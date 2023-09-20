@@ -64,11 +64,11 @@
                 </p>
                 <ul class="flex gap-2 text-sm">
                     <li><a class="transition-all rounded-full border-2 border-[#42D392] text-[#42D392] px-2 hover:bg-[#42D392] hover:text-white" href="https://vuejs.org/" target="_blank">Vue.js</a></li>
-                    <li><a class="rounded-full border-2 text-[#C66493] border-[#C66493] hover:text-white hover:bg-[#C66493] px-2" href="https://sass-lang.com/">Sass</a></li>
+                    <li><a class="rounded-full border-2 text-[#C66493] border-[#C66493] hover:text-white hover:bg-[#C66493] px-2" href="https://sass-lang.com/" target="_blank">Sass</a></li>
                     <li><a class="transition-all rounded-full border-2 text-[#D3461E] border-[#D3461E] px-2 hover:bg-[#D3461E] hover:text-white" href="https://www.figma.com/file/ctJnDHnwNlbjavkaNyv7wv/Music-Please?type=design&node-id=0%3A1&mode=design&t=brfhBLmySlaJG6x5-1" target="_blank">Figma</a></li>
                 </ul>
                 <p class="font-[Poppins-r] text-xl pt-4 w-full lg:w-96">
-                    Au cours de ma dernière année à la HEAJ, j'ai eu l'occasion de concevoir l'un de mes premiers projets concrets en Vue.js, qui portait sur le domaine de la musique.                </p>
+                    Au cours de ma dernière année à la HEAJ, j'ai eu l'occasion de concevoir l'un de mes premiers projets concrets en Vue.js, qui portait sur le domaine de la musique.</p>
             </div>
             <a href="https://bastien-thunus.be/projets/musicplz/" target="_blank" class="bg-white rounded-[28px] h-96 p-1 drop-shadow-[0_0px_10px_rgba(255,255,255,0.04)] hover:bg-white/40 transition-all lg:w-2/4 2xl:w-3/4 sm:mx-20">
                 <div class="card-music bg-[#F6F6F6] rounded-3xl h-full">
@@ -88,8 +88,8 @@
                     · ILAB
                 </p>
                 <ul class="flex gap-2 text-sm">
-                    <li><a class="rounded-full border-2 border-[#E44D26] text-[#E44D26] px-2">Html</a></li>
-                    <li><a class="rounded-full border-2 text-[#C66493] border-[#C66493] hover:text-white hover:bg-[#C66493] px-2" href="https://sass-lang.com/">Sass</a></li>
+                    <li><a class="rounded-full border-2 border-[#E44D26] text-[#E44D26] hover:text-white hover:bg-[#E44D26] px-2" href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">Html</a></li>
+                    <li><a class="rounded-full border-2 text-[#C66493] border-[#C66493] hover:text-white hover:bg-[#C66493] px-2" href="https://sass-lang.com/" target="_blank">Sass</a></li>
                     <li><a  class="transition-all rounded-full border-2 text-[#D3461E] border-[#D3461E] px-2 hover:bg-[#D3461E] hover:text-white" href="https://www.figma.com/file/R6Cv9zzaK4q2S8b2SptcED/TFE?type=design&node-id=0%3A1&mode=design&t=0KnbEdpWlKG6deXG-1" target="_blank">Figma</a></li>
                 </ul>
                 <p class="font-[Poppins-r] text-xl pt-4 w-full lg:w-96">
@@ -110,33 +110,33 @@
 
 <style>
     .card{
-        background-image: url("../img/port-tfa.png");
+        background-image: url("../img/port-tfa.webp");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .card-tfe{
-        background-image: url("../img/port-tfe.png");
+        background-image: url("../img/port-tfe.webp");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .card-ilab{
-        background-image: url("../img/port-ilab.png");
+        background-image: url("../img/port-ilab.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     .card-music{
-        background-image: url("../img/port-music.png");
+        background-image: url("../img/port-music.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     .text-bg{
-        background-image: url("../img/gradient.jpg");
+        background-image: url("../img/gradient.webp");
         background-repeat: no-repeat;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

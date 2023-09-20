@@ -73,7 +73,7 @@
                     <li class="rounded-full border-2 text-[#9494F7] border-[#9494F7] hover:bg-[#9494F7] hover:text-white transition-all px-2"><a href="https://www.adobe.com/be_fr/products/aftereffects.html">After&nbsp;Effect</a></li>
                 </ul>
                 <p class="font-[Poppins-r] text-xl pt-4 w-full lg:w-96">
-                    Pour la fin de mon cursus à la HEAJ, j'ai consacré mon travail de fin d'études à Midjourney, en raison de ses révolutions techniques significatives et de ses capacités en constante expansion. Ce projet m'a offert l'opportunité de renforcer mes compétences dans le l'utilisation des API ainsi que dans l'utilisation de Vue.js.
+                    J'ai obtenu un diplôme de technicien en infographie de l'ITCF Félicien Rops en 2019.
                 </p>
             </div>
             <a href="https://bastien-thunus.be/projets/musicplz/" class="bg-white rounded-[28px] h-96 p-1 drop-shadow-[0_0px_10px_rgba(255,255,255,0.04)] hover:bg-white/40 transition-all lg:w-2/4 2xl:w-3/4 sm:mx-20">
@@ -92,26 +92,26 @@
 
 <style>
     .card-heaj{
-        background-image: url("../img/port-heaj-2.jpeg");
+        background-image: url("../img/port-heaj-2.webp");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .card-stage{
-        background-image: url("../img/port-stage.png");
+        background-image: url("../img/port-stage.webp");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .card-rops{
-        background-image: url("../img/port-rops.jpeg");
+        background-image: url("../img/port-rops.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     .text-bg{
-        background-image: url("../img/gradient.jpg");
+        background-image: url("../img/gradient.webp");
         background-repeat: no-repeat;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

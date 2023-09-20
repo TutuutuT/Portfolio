@@ -5,16 +5,16 @@ import { ref } from 'vue'
 const menuToggle = ref(false)
 const imageToggle = ref(false)
 const menuChoice = ref(1)
-const ImageProjet = ref('./src/img/PromptPilot.jpg')
+const ImageProjet = ref('./src/img/PromptPilot.webp')
 
-const ImageTfe = ref('./src/img/PromptPilot.jpg')
-const ImageTfa = ref('./src/img/nest.jpg')
-const ImageMusic = ref('./src/img/Music.png')
-const ImageIolce = ref('./src/img/IMG_2786.jpeg')
-const ImageRux = ref('./src/img/port-ilab.png')
-const ImageStage = ref('./src/img/port-stage.png')
-const ImageHeaj = ref('./src/img/port-heaj-2.jpeg')
-const ImageRops = ref('./src/img/port-rops.jpeg')
+const ImageTfe = ref('./src/img/PromptPilot.webp')
+const ImageTfa = ref('./src/img/nest.webp')
+const ImageMusic = ref('./src/img/Music.webp')
+const ImageIolce = ref('./src/img/IMG_2786.webp')
+const ImageRux = ref('./src/img/port-ilab.webp')
+const ImageStage = ref('./src/img/port-stage.webp')
+const ImageHeaj = ref('./src/img/port-heaj-2.webp')
+const ImageRops = ref('./src/img/port-rops.webp')
 
 const MobileMenu = ref(false);
 
@@ -208,7 +208,7 @@ const HoverMenu = () => {
               color: black;
             }
             &__img{
-                background-image: url(../img/IMG_2786.jpeg);
+                background-image: url(../img/IMG_2786.webp);
                 background-position: center;
                 background-size: cover;
                 height: 88%;
