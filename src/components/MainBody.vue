@@ -45,7 +45,7 @@ onMounted(() => {
                 <li>Photographe amateur</li>
             </ul>
             <div class="overflow-hidden rounded-xl">
-                <img src="../img/Thai2.webp" class="rounded-xl max-w-sm">
+                <img src="../img/Thai2.webp" alt="Picture from Thaïland" class="rounded-xl max-w-sm">
                 <figcaption class="w-full text-xs xl:text-end opacity-60 mt-1">Thaïlande · 2023</figcaption>
             </div>
         </div>

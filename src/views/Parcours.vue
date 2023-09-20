@@ -42,7 +42,7 @@
                     <li><a class="transition-all rounded-full border-2 border-[#42D392] text-[#42D392] px-2 hover:bg-[#42D392] hover:text-white" href="https://vuejs.org/" target="_blank">Vue.js</a></li>
                     <li><a class="transition-all rounded-full border-2 border-[#7477AE] text-[#7477AE] px-2 hover:bg-[#7477AE] hover:text-white" href="https://www.php.net/" target="_blank">php</a></li>
                     <li><a  class="transition-all rounded-full border-2 text-[#88CE02] border-[#88CE02] px-2 hover:bg-[#88CE02] hover:text-white" href="https://greensock.com/gsap/" target="_blank">GSAP</a></li>
-                    <li><a class="rounded-full border-2 border-[#42D392] text-[#42D392] px-2" href="">Html</a></li>
+                    <li><a class="rounded-full border-2 border-[#E44D26] text-[#E44D26] hover:text-white hover:bg-[#E44D26] px-2" href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">Html</a></li>
                     <li><a class="rounded-full border-2 text-[#C66493] border-[#C66493] hover:text-white hover:bg-[#C66493] px-2" href="https://sass-lang.com/">Sass</a></li>
                     <li><a  class="transition-all rounded-full border-2 text-[#D3461E] border-[#D3461E] px-2 hover:bg-[#D3461E] hover:text-white" href="https://www.figma.com/file/R6Cv9zzaK4q2S8b2SptcED/TFE?type=design&node-id=0%3A1&mode=design&t=0KnbEdpWlKG6deXG-1" target="_blank">Figma</a></li>
                 </ul>
